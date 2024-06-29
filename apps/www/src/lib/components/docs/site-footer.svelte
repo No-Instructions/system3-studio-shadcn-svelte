@@ -6,31 +6,47 @@
 	<div class="container flex flex-col items-center justify-between gap-4 md:h-24 md:flex-row">
 		<div class="flex flex-col items-center gap-4 px-8 md:flex-row md:gap-2 md:px-0">
 			<p class="text-center text-sm leading-loose text-muted-foreground md:text-left">
-				Built & designed by
+				Built by
 				<a
-					href={siteConfig.links.shadTwitter}
+					href={siteConfig.links.noInstructionsWeb}
 					target="_blank"
 					rel="noreferrer"
 					class="font-medium underline underline-offset-4"
 				>
-					shadcn</a
-				>. Ported to Svelte by
+					No Instructions</a
+				> on
 				<a
-					href={siteConfig.links.twitter}
+					href={siteConfig.links.shadUiWeb}
+					target="_blank"
+					rel="noreferrer"
+					class="font-medium underline underline-offset-4"
+				>
+					shadcn/ui</a
+				>, which was
+				<a
+					href={siteConfig.links.shadSvelteWeb}
+					target="_blank"
+					rel="noreferrer"
+					class="font-medium underline underline-offset-4"
+				>
+					ported to Svelte</a
+				> by
+				<a
+					href={siteConfig.links.huntaTwitter}
 					target="_blank"
 					rel="noreferrer"
 					class="font-medium underline underline-offset-4"
 				>
 					huntabyte</a
-				>. The source code is available on
+				>. The
 				<a
-					href={siteConfig.links.github}
+					href={siteConfig.links.shadSvelteGithub}
 					target="_blank"
 					rel="noreferrer"
 					class="font-medium underline underline-offset-4"
 				>
-					GitHub</a
-				>.
+					source</a
+				> is open.	
 			</p>
 		</div>
 	</div>

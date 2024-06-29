@@ -16,12 +16,11 @@
 <div class="container relative">
 	<PageHeader.Root class="pb-8">
 		<Announcement />
-		<PageHeader.Heading>Build your component library</PageHeader.Heading>
+		<PageHeader.Heading>Think together</PageHeader.Heading>
 		<PageHeader.Description class="text-muted-foreground">
-			Beautifully designed components that you can copy and paste into your apps. Accessible.
-			Customizable. Open Source.
+			Intelligently built plugins you can add to Obsidian to deepen your thought<p></p> and integrate with others. Local-first. Private. Your data.
 		</PageHeader.Description>
-		<p class="text-center text-sm text-orange-700 dark:text-orange-400">
+		<!-- <p class="text-center text-sm text-orange-700 dark:text-orange-400">
 			This is an unofficial port of <a
 				href={siteConfig.links.shadGithub}
 				target="_blank"
@@ -35,7 +34,7 @@
 				rel="noreferrer"
 				class="font-medium underline underline-offset-4">@shadcn</a
 			>.
-		</p>
+		</p> -->
 		<div class="flex w-full items-center justify-center space-x-4 py-4 md:pb-10">
 			<a href="/docs" class={cn(buttonVariants())}> Get Started </a>
 			<a

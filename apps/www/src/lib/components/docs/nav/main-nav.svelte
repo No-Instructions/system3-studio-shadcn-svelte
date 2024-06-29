@@ -40,7 +40,7 @@
 				$page.url.pathname.startsWith("/themes") ? "text-foreground" : "text-foreground/60"
 			)}
 		>
-			Themes
+			Tiddies
 		</a>
 		<a
 			href="/examples"
