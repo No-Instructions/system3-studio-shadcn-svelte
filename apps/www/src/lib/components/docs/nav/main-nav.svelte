@@ -14,6 +14,16 @@
 	</a>
 	<nav class="flex items-center gap-6 text-sm">
 		<a
+			href="/themes"
+			class={cn(
+				"transition-colors hover:text-foreground/80",
+				$page.url.pathname.startsWith("/themes") ? "text-foreground" : "text-foreground/60"
+			)}
+		>
+			Relay
+		</a>
+
+		<a
 			href="/docs"
 			class={cn(
 				"transition-colors hover:text-foreground/80",
@@ -23,54 +33,17 @@
 			Docs
 		</a>
 		<a
-			href="/docs/components"
-			class={cn(
-				"transition-colors hover:text-foreground/80",
-				$page.url.pathname.startsWith("/docs/components")
-					? "text-foreground"
-					: "text-foreground/60"
-			)}
-		>
-			Components
-		</a>
-		<a
-			href="/themes"
-			class={cn(
-				"transition-colors hover:text-foreground/80",
-				$page.url.pathname.startsWith("/themes") ? "text-foreground" : "text-foreground/60"
-			)}
-		>
-			Tiddies
-		</a>
-		<a
-			href="/examples"
-			class={cn(
-				"transition-colors hover:text-foreground/80",
-				$page.url.pathname.startsWith("/examples")
-					? "text-foreground"
-					: "text-foreground/60"
-			)}
-		>
-			Examples
-		</a>
-		<a
 			href="/blocks"
 			class={cn(
 				"transition-colors hover:text-foreground/80",
 				$page.url.pathname.startsWith("/blocks") ? "text-foreground" : "text-foreground/60"
 			)}
 		>
-			Blocks
+			About
 		</a>
-		<a
-			href={siteConfig.links.github}
-			target="_blank"
-			rel="noopener noreferrer"
-			class={cn(
-				"hidden text-foreground/60 transition-colors hover:text-foreground/80 lg:block"
-			)}
-		>
-			GitHub
-		</a>
+
+
+
+
 	</nav>
 </div>

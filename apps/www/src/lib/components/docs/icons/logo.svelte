@@ -41,7 +41,7 @@
 
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" {...$$restProps}>
 <rect width="256" height="256" fill="none" />
-<polygon points="128,58.72 48,197.28 208,197.28" fill="none" stroke="#34495e" stroke-width="16"/>
+<polygon points="128,58.72 48,197.28 208,197.28" fill="none" stroke="#808080" stroke-width="16"/>
 <circle cx="128" cy="58.72" r="42" fill="#e74c3c"/>
 <circle cx="48" cy="197.28" r="42" fill="#3498db"/>
 <circle cx="208" cy="197.28" r="42" fill="#2ecc71"/>
