@@ -6,6 +6,7 @@ export const siteConfig = {
 	links: {
 		noInstructionsWeb: "https://noinstructions.ai",
 		noInstructionsTwitter: "https://x.com/noinstruct",
+		relayGithub: "https://github.com/No-Instructions/Relay",
 		huntaTwitter: "https://twitter.com/huntabyte",
 		shadSvelteGithub: "https://github.com/huntabyte/shadcn-svelte",
 		shadSvelteWeb: "https://www.shadcn-svelte.com/",
